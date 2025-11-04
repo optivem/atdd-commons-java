@@ -67,8 +67,16 @@ public class Example {
 
 To build the library locally:
 
+### Using Gradle
+
 ```bash
-mvn clean install
+./gradlew build
+```
+
+Or on Windows:
+
+```cmd
+gradlew.bat build
 ```
 
 ## License
