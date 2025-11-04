@@ -1,4 +1,6 @@
-# ATDD Commons Java
+# ATDD Commons (Java)
+
+[![Build](https://github.com/optivem/atdd-commons-java/actions/workflows/build.yml/badge.svg)](https://github.com/optivem/atdd-commons-java/actions/workflows/build.yml)
 
 A common utilities library for Java projects.
 
