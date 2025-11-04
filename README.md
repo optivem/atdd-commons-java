@@ -22,7 +22,7 @@ Add the dependency:
 ```xml
 <dependency>
     <groupId>com.github.optivem</groupId>
-    <artifactId>atdd-commons-java</artifactId>
+    <artifactId>atdd-commons</artifactId>
     <version>1.0.0</version>
 </dependency>
 ```
@@ -41,7 +41,7 @@ Add the dependency:
 
 ```gradle
 dependencies {
-    implementation 'com.github.optivem:atdd-commons-java:1.0.0'
+    implementation 'com.github.optivem:atdd-commons:1.0.0'
 }
 ```
 
