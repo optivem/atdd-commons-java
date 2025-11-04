@@ -26,6 +26,8 @@ Add the dependency:
     <groupId>com.github.optivem</groupId>
     <artifactId>atdd-commons</artifactId>
     <version>1.0.4</version>
+    <!-- Or use major version only (recommended): -->
+    <!-- <version>[1.0,2.0)</version> -->
 </dependency>
 ```
 
@@ -44,6 +46,8 @@ Add the dependency:
 ```gradle
 dependencies {
     implementation 'com.github.optivem:atdd-commons:1.0.4'
+    // Or use major version only (recommended):
+    // implementation 'com.github.optivem:atdd-commons:1.+'
 }
 ```
 
