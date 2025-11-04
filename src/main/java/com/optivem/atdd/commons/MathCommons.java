@@ -6,6 +6,13 @@ package com.optivem.atdd.commons;
 public class MathCommons {
     
     /**
+     * Private constructor to prevent instantiation.
+     */
+    private MathCommons() {
+        throw new UnsupportedOperationException("Utility class");
+    }
+    
+    /**
      * Adds two integers and returns the result.
      * 
      * @param a the first integer

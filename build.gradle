@@ -19,7 +19,10 @@ repositories {
 }
 
 dependencies {
-    // Add your dependencies here if needed
+    // JUnit 5 dependencies
+    api 'org.junit.jupiter:junit-jupiter-api:5.10.1'
+    api 'org.junit.jupiter:junit-jupiter-params:5.10.1'
+    implementation 'org.junit.jupiter:junit-jupiter-engine:5.10.1'
 }
 
 tasks.named('test') {
