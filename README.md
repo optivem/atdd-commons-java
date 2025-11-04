@@ -25,7 +25,7 @@ Add the dependency:
 <dependency>
     <groupId>com.github.optivem</groupId>
     <artifactId>atdd-commons</artifactId>
-    <version>1.0.3</version>
+    <version>1.0.4</version>
 </dependency>
 ```
 
@@ -43,28 +43,26 @@ Add the dependency:
 
 ```gradle
 dependencies {
-    implementation 'com.github.optivem:atdd-commons:1.0.3'
+    implementation 'com.github.optivem:atdd-commons:1.0.4'
 }
 ```
 
 ## Usage
 
 ```java
-import com.optivem.atdd.commons.MathCommons;
+import com.optivem.atdd.commons.channels.Channel;
+import org.junit.jupiter.api.TestTemplate;
 
-public class Example {
-    public static void main(String[] args) {
-        int result = MathCommons.addition(5, 3);
-        System.out.println("Result: " + result); // Output: Result: 8
+public class ExampleTest {
+    @Channel({"web", "mobile", "api"})
+    void testAcrossChannels() {
+        String channel = ChannelContext.get();
+        // Test logic that runs for each channel
     }
 }
 ```
 
 ## Features
-
-- **MathCommons**: Common mathematical utility functions
-  - `addition(int a, int b)`: Adds two integers
-  - `subtraction(int a, int b)`: Subtracts two integers
 
 - **Channel Testing**: Annotations and utilities for multi-channel test execution
   - `@Channel`: Annotation for defining channel-based parameterized tests

@@ -4,7 +4,7 @@ plugins {
 }
 
 group = 'com.github.optivem'
-version = '1.0.3'
+version = '1.0.4'
 
 java {
     toolchain {
@@ -34,7 +34,7 @@ publishing {
         maven(MavenPublication) {
             groupId = 'com.github.optivem'
             artifactId = 'atdd-commons'
-            version = '1.0.3'
+            version = '1.0.4'
             
             from components.java
             
