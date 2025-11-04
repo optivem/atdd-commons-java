@@ -25,7 +25,7 @@ Add the dependency:
 <dependency>
     <groupId>com.github.optivem</groupId>
     <artifactId>atdd-commons</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2</version>
 </dependency>
 ```
 
@@ -43,7 +43,7 @@ Add the dependency:
 
 ```gradle
 dependencies {
-    implementation 'com.github.optivem:atdd-commons:1.0.1'
+    implementation 'com.github.optivem:atdd-commons:1.0.2'
 }
 ```
 
@@ -64,6 +64,7 @@ public class Example {
 
 - **MathCommons**: Common mathematical utility functions
   - `addition(int a, int b)`: Adds two integers
+  - `subtraction(int a, int b)`: Subtracts two integers
 
 ## Building
 

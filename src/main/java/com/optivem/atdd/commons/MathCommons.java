@@ -15,4 +15,15 @@ public class MathCommons {
     public static int addition(int a, int b) {
         return a + b;
     }
+    
+    /**
+     * Subtracts two integers and returns the result.
+     * 
+     * @param a the first integer
+     * @param b the second integer
+     * @return the difference of a and b
+     */
+    public static int subtraction(int a, int b) {
+        return a - b;
+    }
 }
