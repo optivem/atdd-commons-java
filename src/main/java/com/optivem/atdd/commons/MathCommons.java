@@ -1,4 +1,4 @@
-package com.github.optivem.atdd.commons;
+package com.optivem.atdd.commons;
 
 /**
  * Common mathematical utility functions.

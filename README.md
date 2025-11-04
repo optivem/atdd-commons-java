@@ -48,7 +48,7 @@ dependencies {
 ## Usage
 
 ```java
-import com.github.optivem.atdd.commons.MathCommons;
+import com.optivem.atdd.commons.MathCommons;
 
 public class Example {
     public static void main(String[] args) {
